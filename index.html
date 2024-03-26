@@ -6,54 +6,105 @@
     <meta charset="utf-8">
     <meta name="author" content ="Austin Johnk">
     <style>
+        
         body {
           padding-top: 40px;
           padding-bottom: 40px;
+          background-color: #c4d1cc;
         }
         
+        .name {
+          color: #00473e;
+          display: flex;
+          justify-content: center;
+        }
+
+        .social-icons a {
+          color:  #ffa8ba
+          text-decoration: none;
+          display: flex;
+          justify-content: space-around;
+        }
+        
+        .link {
+          background-color: #faae2b;
+          display: flex;
+          align-items: center;
+          padding: 5px;
+        }
+
+        .link a {
+          color: #f25042
+          text-decoration: none;
+          text-align: center;
+          flex-grow: 1;
+        }
+
         .banner-image {
         width: 128px;
         height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
         }
         
+        .thumbnails {
+          width: 48px;
+          height: 48px;
+          border-radius: 48px;
+          object-fit: cover;
+        }
+
+        .items {
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          max-width: 640px;
+        }
+        
+        .banner {
+          display: flex;
+          justify-content: center;
+        }
+
     </style>
 
   </head>
 
-  <body>
+  <div>
+    <div class="items">
+      <div class="banner">
+        <img src="/Thumbnails/Austin Headshot.jpg" alt="Austin Johnk's headshot" class = "banner-image">
+      </div>
 
-    <div class="banner">
-      <img src="/Thumbnails/Austin Headshot.jpg" alt="Austin Johnk's headshot" class = "banner-image">
-    </div>
+      <div class="name">
+        Austin Johnk
+      </div>
 
-    <div class="name">
-      Austin Johnk
-    </div>
+      <div class="social-icons">
+        <a href="https://github.com/austinj33" target="_blank">
+          GitHub
+        </a>
 
-    <div class="social-icons">
-      <a href="https://github.com/austinj33" target="_blank">
-        GitHub
-      </a>
+        <a href="https://www.linkedin.com/in/austin-johnk/" target="_blank">
+          LinkedIn
+        </a>
 
-      <a href="https://www.linkedin.com/in/austin-johnk/" target="_blank">
-        LinkedIn
-      </a>
+      </div>
 
-    </div>
+      <div class="link">
+        <img
+          src="/Thumbnails/asymmetry1.webp" alt ="Chart showing risk and return spectrum" class ="thumbnails">
 
-    <div class="link">
-      <img
-        src="/Thumbnails/asymmetry1" alt ="Chart showing risk and return spectrum">
+        <a target="_blank" href="https://www.oaktreecapital.com/insights/memo/fewer-losers-or-more-winners">Fewer losers or more winners
+          - Howard Marks</a>
+      </div>
 
-      <a target="_blank" href="https://www.oaktreecapital.com/insights/memo/fewer-losers-or-more-winners">Fewer losers or more winners
-        - Howard Marks</a>
-    </div>
+      <div class="link">
+        <img src="/Thumbnails/ThinApplications.png" alt = "Chart showing Blockchain based application vs traditional." class = "thumbnails">
 
-    <div class="link">
-      <img src="/thumbnails/ThinApplications.png" alt = "Chart showing Blockchain based application vs traditional.">
-
-      <a target="_blank"
-        href="https://www.placeholder.vc/blog/2020/1/30/thin-applications">Thin applications — Joel Monegro</a>
+        <a target="_blank"
+          href="https://www.placeholder.vc/blog/2020/1/30/thin-applications">Thin applications — Joel Monegro</a>
+      </div>
     </div>
 
   </body>
