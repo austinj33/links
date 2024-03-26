@@ -10,17 +10,18 @@
         body {
           padding-top: 40px;
           padding-bottom: 40px;
-          background-color: #c4d1cc;
+          background: linear-gradient(90deg, #1e445c, #3e5b72, #5c7388, #7a8c9f, #98a6b6, #b7c1ce, #d6dde6, #f5f9ff);
         }
         
         .name {
-          color: #00473e;
+          color: #ffffff;
           display: flex;
           justify-content: center;
+          font-family: Verdana, Geneva, Tahoma, sans-serif
         }
 
         .social-icons a {
-          color:  #ffa8ba
+          color:  #fafafa
           text-decoration: none;
           display: flex;
           justify-content: space-around;
@@ -41,23 +42,23 @@
         }
 
         .banner-image {
-        width: 128px;
-        height: 128px;
+        width: 170px;
+        height: 170px;
         object-fit: cover;
-        border-radius: 128px;
+        border-radius: 170px;
         }
         
         .thumbnails {
-          width: 48px;
-          height: 48px;
-          border-radius: 48px;
+          width: 75px;
+          height: 75px;
+          border-radius: 75px;
           object-fit: cover;
         }
 
         .items {
           display: flex;
           flex-direction: column;
-          gap: 30px;
+          gap: 15px;
           max-width: 640px;
         }
         
@@ -65,8 +66,10 @@
           display: flex;
           justify-content: center;
         }
-
+    
     </style>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
 
   </head>
 
@@ -82,11 +85,11 @@
 
       <div class="social-icons">
         <a href="https://github.com/austinj33" target="_blank">
-          GitHub
+          <i class="fa-brands fa-github fa-2x"></i>
         </a>
 
         <a href="https://www.linkedin.com/in/austin-johnk/" target="_blank">
-          LinkedIn
+          <i class="fa-brands fa-linkedin-in fa-2x"></i>
         </a>
 
       </div>
